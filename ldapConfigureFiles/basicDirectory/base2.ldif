@@ -1,0 +1,14 @@
+dn: O=shenzhen,DC=CHINACLEAR,DC=CN
+objectclass: organization
+objectclass: top
+o: shenzhen
+
+dn: O=shanghai,DC=CHINACLEAR,DC=CN
+objectclass: organization
+objectclass: top
+o: shanghai
+
+dn: O=beijing,DC=CHINACLEAR,DC=CN
+objectclass: organization
+objectclass: top
+o: beijing

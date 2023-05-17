@@ -1,0 +1,4 @@
+dn: DC=CHINACLEAR,DC=CN
+dc: CHINACLEAR
+objectclass: domain
+objectclass: top

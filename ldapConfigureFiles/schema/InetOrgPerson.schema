@@ -1,0 +1,13 @@
+objectclass (2.16.840.1.113730.3.2.2  NAME 'inetOrgPerson'
+  DESC 'Defines entries representing people in an organizations enterprise network.'
+  SUP organizationalPerson STRUCTURAL
+  MAY (app001 $ app002 $ app003 $ app004 $ app005  $ app_cmdb)
+)
+
+
+attributetype (2.16.8466.0.1.113731.3.2.2.1 NAME 'app001' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch  SUBSTR caseIgnoreSubstringsMatch SINGLE-VALUE)
+attributetype (2.16.8466.0.1.113732.3.2.2.1 NAME 'app002' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch  SUBSTR caseIgnoreSubstringsMatch SINGLE-VALUE)
+attributetype (2.16.8466.0.1.113733.3.2.2.1 NAME 'app003' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch  SUBSTR caseIgnoreSubstringsMatch SINGLE-VALUE)
+attributetype (2.16.8466.0.1.113734.3.2.2.1 NAME 'app004' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch  SUBSTR caseIgnoreSubstringsMatch SINGLE-VALUE)
+attributetype (2.16.8466.0.1.113735.3.2.2.1 NAME 'app005' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch  SUBSTR caseIgnoreSubstringsMatch SINGLE-VALUE)
+attributetype (2.16.8466.0.1.113736.3.2.2.1 NAME 'app_cmdb' SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 EQUALITY caseIgnoreMatch  SUBSTR caseIgnoreSubstringsMatch SINGLE-VALUE)

@@ -1,0 +1,3 @@
+objectclass (1.3.18.0.2.8.29 NAME 'sdcIntPerson'
+   SUP top AUXILIARY
+   MAY( id $ lastLogonTime $ sdcIntBirthday  $ sdcIntCardNo ))

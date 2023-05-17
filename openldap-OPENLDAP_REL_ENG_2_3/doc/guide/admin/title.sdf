@@ -1,0 +1,12 @@
+# $OpenLDAP$
+# Copyright 1999-2003, The OpenLDAP Foundation, All Rights Reserved.
+# COPYING RESTRICTIONS APPLY, see COPYRIGHT.
+#
+# Document: OpenLDAP Administrator's Guide
+# Master: master.sdf
+# 
+
+!define DOC_TYPE	"Administrator's Guide"
+
+!build_title
+
