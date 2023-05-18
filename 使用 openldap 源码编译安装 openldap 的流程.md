@@ -15,14 +15,17 @@ wget http://download.oracle.com/berkeley-db/db-4.8.30.tar.gz
 源码安装前先安装所有的依赖包：
 yum install libtool-ltdl libtool-ltdl-devel gcc openssl openssl-devel -y
 
-
-
-
-
 2.6 版本需要的基础环境：
 yum -y install vim net-tools telnet gcc libtool libtool-ltdl libtool-ltdl-devel openssl openssl-devel openssl-libs gnutls gnutls-utils guntls-devel tcp-wrappers-devel tcp-wrappers-libs libdb-devel unixODBC-devel mysql-devel cyrus-sasl cyrus-sasl-devel autogen-libopts perl-LDAP authconfig nss-pam-ldapd openslp-devel
 
 yum -y install tcp_wrappers*
 yum -y install openssh-ldap
+
+- secret ssha :
+- {SSHA}jdUNQecQjWYLs/oArKQf438cenZDxIXF
+- {SSHA}gEfQ6xel4smSm/GbhKiEdGSitvVnm1LQ
+- {SSHA}DKM0nAHI8brJKdIqQWhkI34KX5EwYIpS
+- {SSHA}dkxDAqZErGVrooFS3L9DtsWahRt8iDQL
+
 
 

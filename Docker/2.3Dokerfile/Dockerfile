@@ -1,4 +1,4 @@
-From  centos:5.11
+From  centos:centos7
 ENV LANG C.utf8
 USER root
 
@@ -16,7 +16,7 @@ COPY   *.ldif       ./4a-ldif
 COPY   slapd.conf   /etc/openldap/
 
 RUN    mkdir      myschema
-COPY   *.schema       /myschema
+COPY   *.schema       /myschema/
 
 # 查看当前目录文件
 RUN ls  /

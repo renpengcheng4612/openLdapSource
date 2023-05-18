@@ -54,3 +54,36 @@ configure: error: BDB/HDB: BerkeleyDB not available
 [root@localhost openldap-2.4.19]#make install
 
 
+
+# AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
+# CRC32 07b0201e
+dn: olcDatabase={0}config
+objectClass: olcDatabaseConfig
+olcDatabase: {0}config
+olcAccess: {0}to *  by * none
+olcAddContentAcl: TRUE
+olcLastMod: TRUE
+olcMaxDerefDepth: 15
+olcReadOnly: FALSE
+olcRootDN: cn=config
+olcSyncUseSubentry: FALSE
+olcMonitoring: FALSE
+structuralObjectClass: olcDatabaseConfig
+entryUUID: 9fdea814-898f-103d-9d86-9d1a73523e5c
+creatorsName: cn=config
+createTimestamp: 20230518061900Z
+entryCSN: 20230518061900.983953Z#000000#000#000000
+modifiersName: cn=config
+modifyTimestamp: 20230518061900Z
+
+
+# 异常记录：
+Failed to get D-Bus connection: Operation not permitted
+
+
+Failed to get D-Bus connection: No such file or directory
+
+systemctl status sshd
+
+
+

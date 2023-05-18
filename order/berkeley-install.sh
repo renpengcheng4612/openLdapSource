@@ -24,3 +24,4 @@ https://mirrors6.tuna.tsinghua.edu.cn/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.gz
 http://mirror.lzu.edu.cn/gnu/gcc/gcc-4.8.0/
 
 ../configure --prefix=/usr/local/gcc4.8.0 --enable-checking=release --enable-languages=c,c++ --disable-multilib
+
