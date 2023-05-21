@@ -85,5 +85,12 @@ Failed to get D-Bus connection: No such file or directory
 
 systemctl status sshd
 
+docker清理
+docker system prune来自动清理空间，参考下面：
 
+该指令默认会清除所有如下资源：
+已停止的容器（container）
+未被任何容器所使用的卷（volume）
+未被任何容器所关联的网络（network）
+所有悬空镜像（image）。
 

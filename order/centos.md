@@ -58,10 +58,8 @@ cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
 
 # 查看 centos 版本：
 cat /etc/redhat-release
-
 CentOS Linux release 8.4.2105
 
 
 ali yum 仓库：
-
 https://mirrors.aliyun.com/repo/Centos-7.repo

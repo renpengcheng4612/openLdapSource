@@ -7,7 +7,7 @@ ENV TZ=Asia/Shanghai
 
 # 将 openldap 的源码添加到容器中
 RUN   mkdir  openldap-code
-COPY  /openldap-2.6.4   /openldap-code/openldap-2.6.4
+COPY  /openldap-2.6.4     /openldap-code/openldap-2.6.4
 COPY  /openldap-OPENLDAP_REL_ENG_2_3   /openldap-code/openldap-OPENLDAP_REL_ENG_2_3
 
 # 将 jar 包拷贝 添加到容器中
